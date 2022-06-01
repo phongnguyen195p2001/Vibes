@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefWidth="1154.0" style="-fx-background-color: transparent;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eproject2_motor.contactController">
+    <children>
+        <StackPane alignment="CENTER_RIGHT" prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0" StackPane.alignment="CENTER">
+               <children>
+                      <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+                          <children>
+                              <VBox alignment="CENTER_LEFT" maxWidth="260.0" style="-fx-background-color: #FF534C;" HBox.hgrow="ALWAYS">
+                                  <children>
+                                      <AnchorPane prefHeight="248.0" prefWidth="238.0">
+                                          <children>
+                                              <ImageView fitHeight="109.0" fitWidth="116.0" layoutX="65.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+                                                  <image>
+                                                      <Image url="@img/icons8_user_100px.png" />
+                                                  </image>
+                                              </ImageView>
+                                              <Text fill="WHITE" layoutX="86.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+                                                  <font>
+                                                      <Font name="octicons" size="24.0" />
+                                                  </font>
+                                              </Text>
+                                          </children>
+                                 <VBox.margin>
+                                    <Insets bottom="30.0" />
+                                 </VBox.margin>
+                                      </AnchorPane>
+                                      <VBox prefHeight="340.0" prefWidth="238.0" VBox.vgrow="ALWAYS">
+                                          <children>
+                                                <JFXButton onMouseClicked="#btndb" prefHeight="48.0" prefWidth="289.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="Dashboard" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <graphic>
+                                                      <ImageView fitHeight="47.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                                          <image>
+                                                              <Image url="@img/icons8_speed_60px.png" />
+                                                          </image>
+                                                      </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                                </JFXButton>
+                                                <JFXButton onMouseClicked="#btnmotor" prefHeight="44.0" prefWidth="430.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="Motor" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <graphic>
+                                                      <ImageView fitHeight="35.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                                          <image>
+                                                              <Image url="@img/icons8_motorcycle_48px_1.png" />
+                                                          </image>
+                                                      </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                                </JFXButton>
+                                                <JFXButton onMouseClicked="#btnbrand" prefHeight="44.0" prefWidth="353.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="Brand" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <graphic>
+                                                      <ImageView fitHeight="47.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                                          <image>
+                                                              <Image url="@img/icons8_speed_60px.png" />
+                                                          </image>
+                                                      </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                                </JFXButton>
+                                                <JFXButton onMouseClicked="#btnstyle" prefHeight="43.0" prefWidth="381.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="Style" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <graphic>
+                                                      <ImageView fitHeight="47.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                                          <image>
+                                                              <Image url="@img/icons8_motorbike_helmet_60px.png" />
+                                                          </image>
+                                                      </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                                </JFXButton>
+                                                <JFXButton onMouseClicked="#btncaontact" prefHeight="39.0" prefWidth="362.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="Contact" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <graphic>
+                                                      <ImageView fitHeight="34.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                                                          <image>
+                                                              <Image url="@img/icons8_contact_60px.png" />
+                                                          </image>
+                                                      </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                                </JFXButton>
+                                                <JFXButton onMouseClicked="#btnuser" prefHeight="40.0" prefWidth="376.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="User" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <graphic>
+                                                      <ImageView fitHeight="34.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                                          <image>
+                                                              <Image url="@img/icons8_staff_48px.png" />
+                                                          </image>
+                                                      </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                                </JFXButton>
+                                                <JFXButton onMouseClicked="#btnadmin" prefHeight="40.0" prefWidth="307.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="Admin" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <graphic>
+                                                      <ImageView fitHeight="39.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                                          <image>
+                                                              <Image url="@img/icons8_businessman_60px.png" />
+                                                          </image>
+                                                      </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                                </JFXButton>
+                                    <JFXButton prefHeight="40.0" prefWidth="340.0" style="-fx-font-weight: bold; -fx-border-color: F34F48;" text="Logout" textFill="WHITE" VBox.vgrow="ALWAYS">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <graphic>
+                                          <ImageView fitHeight="39.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@img/icons8_export_48px_1.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                    </JFXButton>
+                                          </children>
+                                 <effect>
+                                    <DropShadow color="#800e6b" />
+                                 </effect>
+                                      </VBox>
+                              <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                                 <children>
+                                              <ImageView fitHeight="66.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                                                  <image>
+                                                      <Image url="@img/icons8_motorcycle_48px.png" />
+                                                  </image>
+                                                  <effect>
+                                                      <Blend />
+                                                  </effect>
+                                              </ImageView>
+                                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Motor PKL" wrappingWidth="95.77587890625">
+                                                  <font>
+                                                      <Font name="System Bold" size="15.0" />
+                                                  </font>
+                                       <HBox.margin>
+                                          <Insets left="20.0" />
+                                       </HBox.margin>
+                                              </Text>
+                                 </children>
+                              </HBox>
+                                  </children>
+                                  <effect>
+                                      <DropShadow />
+                                  </effect>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="561.0" prefWidth="679.0" HBox.hgrow="ALWAYS">
+                                  <children>
+                                      <fx:include source="3nut.fxml" />
+                                  </children>
+                                  <children>
+                                      <AnchorPane prefHeight="664.0" VBox.vgrow="ALWAYS">
+                                          <children>
+                                              <TableView fx:id="tvmotor" layoutX="15.0" layoutY="186.0" prefHeight="531.0">
+                                                  <columns>
+                                                      <TableColumn fx:id="tvname" prefWidth="217.25" text="Name" />
+                                          <TableColumn fx:id="tvphone" prefWidth="217.25" text="Phone" />
+                                          <TableColumn fx:id="tvemail" prefWidth="217.25" text="Email" />
+                                          <TableColumn fx:id="tvfeedback" prefWidth="217.25" text="Feedback" />
+                                                  </columns>
+                                              </TableView>
+                                              <ImageView fitHeight="109.0" fitWidth="86.0" layoutX="417.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                                                  <image>
+                                                      <Image url="@img/icons8_motorbike_helmet_100px.png" />
+                                                  </image>
+                                              </ImageView>
+                                              <JFXButton layoutX="128.0" layoutY="126.0" onMouseClicked="#clickInsert" prefHeight="31.0" prefWidth="116.0" style="-fx-background-color: #00ff0c;" text="Insert">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font></JFXButton>
+                                              <JFXButton layoutX="402.0" layoutY="126.0" onMouseClicked="#clickupdate" prefHeight="31.0" prefWidth="116.0" style="-fx-background-color: #ffbf00;" text="Update">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font></JFXButton>
+                                              <JFXButton layoutX="652.0" layoutY="126.0" onMouseClicked="#clickdelete" prefHeight="31.0" prefWidth="116.0" style="-fx-background-color: red;" text="Delete">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font></JFXButton>
+                                              <Text layoutX="-2.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor PKL : Contact" wrappingWidth="340.00000816583633" x="16.0">
+                                                  <font>
+                                                      <Font size="36.0" />
+                                                  </font>
+                                              </Text>
+                                          </children>
+                                          <effect>
+                                              <DropShadow />
+                                          </effect>
+                                      </AnchorPane>
+                                  </children>
+                              </VBox>
+                          </children>
+                      </HBox>
+               </children>
+            </VBox>
+         </children>
+        </StackPane>
+    </children>
+</AnchorPane>

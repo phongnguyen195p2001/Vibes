@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="772.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eproject.a.InsertMotorController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="146.0" minHeight="10.0" prefHeight="95.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="284.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="269.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="269.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="btnInsert" mnemonicParsing="false" onAction="#btnInsertClick" text="&lt;Index" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSubmit" mnemonicParsing="false" onAction="#btnSubmitClick" text="Submit" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnReset" mnemonicParsing="false" onAction="#btnResetClick" prefHeight="44.0" prefWidth="88.0" text="Reset" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Motor Manager" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MotorName" GridPane.rowIndex="1">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <TextField fx:id="txtMotorName" prefHeight="31.0" prefWidth="312.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtStyleMotor" GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Message:" GridPane.rowIndex="10">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="84.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="lbMess" prefHeight="31.0" prefWidth="257.0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="message_value" prefHeight="32.0" prefWidth="257.0" GridPane.columnIndex="2" GridPane.rowIndex="10">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Style Motor" GridPane.rowIndex="8">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image" GridPane.rowIndex="2">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Price" GridPane.rowIndex="4">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DescriptionImg" GridPane.rowIndex="3">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <TextField fx:id="txtImage" prefHeight="31.0" prefWidth="224.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtDescriptionImg" prefHeight="31.0" prefWidth="224.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtPrice" prefHeight="31.0" prefWidth="118.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Engine" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label text="Introduce" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label text="Brand Motor" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEngine" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtIntroduce" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtBrandMotor" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+   </children>
+</GridPane>
